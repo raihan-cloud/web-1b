@@ -1,0 +1,27 @@
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    nama_lengkap VARCHAR(100),
+    role ENUM('admin', 'siswa') NOT NULL DEFAULT 'siswa',
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE tugas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    judul VARCHAR(100) NOT NULL,
+    deskripsi TEXT,
+    deadline DATETIME NOT NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE pengumpulan (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    id_user INT NOT NULL,
+    id_tugas INT NOT NULL,
+    file VARCHAR(255),
+    tanggal_kumpul DATETIME DEFAULT CURRENT_TIMESTAMP,
+
+    FOREIGN KEY (id_user) REFERENCES users(id) ON DELETE CASCADE,
+    FOREIGN KEY (id_tugas) REFERENCES tugas(id) ON DELETE CASCADE
+);
