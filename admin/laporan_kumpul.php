@@ -46,7 +46,7 @@ if (!$result) {
     <table class="table table-bordered table-striped">
       <thead class="table-dark">
         <tr>
-          <th>#</th>
+          <th>No</th>
           <th>Nama Siswa</th>
           <th>Tugas</th>
           <th>File</th>
