@@ -2,7 +2,7 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <title>1B-TRKJ | Portal Kelas Digital</title>
+    <title>2B-TRKJ Portal Kelas Digital</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <!-- Bootstrap CSS -->
@@ -284,7 +284,7 @@
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
-        <a class="navbar-brand fw-bold text-primary" href="#">1B-TRKJ</a>
+        <a class="navbar-brand fw-bold text-primary" href="#">2B-TRKJ</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -306,7 +306,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 hero-content" data-aos="fade-right">
-                <h1>Portal Digital Kelas 1B-TRKJ</h1>
+                <h1>Portal Digital Kelas 2B-TRKJ</h1>
                 <p>Tingkatkan pengalaman belajarmu dengan akses materi dan tugas secara digital. Bergabunglah sekarang untuk memulai perjalanan pembelajaranmu!</p>
                 <div class="d-flex gap-3">
                     <a href="login.php" class="btn btn-light btn-custom">Masuk</a>
